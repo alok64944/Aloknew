@@ -136,7 +136,7 @@ def status(m):
     s.settimeout(2)
     try:
         # Localhost check ke liye 127.0.0.1 sahi hai
-        s.connect(('127.0.0.1', 8080))
+        s.connect(('74.220.48.0', 2424))
         api_status = "Online 🟢"
         s.close()
     except:
