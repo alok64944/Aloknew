@@ -5,7 +5,7 @@ import os
 app = Flask(__name__)
 
 # - Security Key taaki koi aur tumhari API use na kar sake
-API_AUTH_TOKEN = "DRX_POWER_ULTRA_V4"
+API_AUTH_TOKEN = "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"
 
 @app.route('/hit', methods=['GET'])
 def start_attack():
