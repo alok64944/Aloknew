@@ -19,7 +19,7 @@ else:
 bot = telebot.TeleBot(config['token'])
 # Agar API isi VPS par hai toh '127.0.0.1' use karein, varna VPS ka IP dalein
 API_URL = "http://34.126.208.96:8080/hit" 
-AUTH_TOKEN = "DRX_POWER_ULTRA_V4"
+AUTH_TOKEN = "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"
 
 # Database files
 KEYS_FILE = "keys.json"
